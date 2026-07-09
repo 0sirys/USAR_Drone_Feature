@@ -4694,18 +4694,6 @@
 		(uuid "a16797dd-0641-43de-ac5a-864823528290")
 	)
 	(rectangle
-		(start 144.78 86.36)
-		(end 195.58 144.78)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "b6d4b37a-7ab6-4667-9e81-ada00a0f06a4")
-	)
-	(rectangle
 		(start 266.7 86.36)
 		(end 368.3 144.78)
 		(stroke
@@ -4728,18 +4716,6 @@
 			(type none)
 		)
 		(uuid "d9634db0-a1cd-46db-a9c3-de19afb9f8ff")
-	)
-	(rectangle
-		(start 198.12 86.36)
-		(end 264.16 144.78)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "f09237e0-847c-44e0-aab7-8a0ae880ffca")
 	)
 	(rectangle
 		(start 144.78 147.32)
@@ -4777,7 +4753,7 @@
 	)
 	(text "POWER"
 		(exclude_from_sim no)
-		(at 184.15 91.44 0)
+		(at 61.976 21.59 0)
 		(effects
 			(font
 				(size 2.7 2.7)
@@ -5364,7 +5340,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 106.68) (xy 156.21 106.68)
+			(xy 38.1 31.75) (xy 33.02 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5391,6 +5367,16 @@
 			(type default)
 		)
 		(uuid "13a7c2a8-aa1a-422e-b94f-07c448032352")
+	)
+	(wire
+		(pts
+			(xy 36.83 46.99) (xy 36.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f241ab-1c97-4167-be12-ed5951193f29")
 	)
 	(wire
 		(pts
@@ -5574,16 +5560,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 109.22) (xy 158.75 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "246b7b11-9a47-40df-aeda-02aed072cefa")
-	)
-	(wire
-		(pts
 			(xy 264.16 196.85) (xy 265.43 196.85)
 		)
 		(stroke
@@ -5711,6 +5687,16 @@
 			(type default)
 		)
 		(uuid "303ae8a1-bc9f-4c92-9b11-d09f0766e20c")
+	)
+	(wire
+		(pts
+			(xy 48.26 36.83) (xy 48.26 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30760795-fd68-49d4-abad-3b4cbf39b342")
 	)
 	(wire
 		(pts
@@ -6114,7 +6100,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 104.14) (xy 160.02 106.68)
+			(xy 38.1 29.21) (xy 38.1 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6364,6 +6350,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 46.99) (xy 36.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec5eb98-5363-4cff-a819-c2659b412c88")
+	)
+	(wire
+		(pts
 			(xy 292.1 260.35) (xy 299.72 260.35)
 		)
 		(stroke
@@ -6571,6 +6567,16 @@
 			(type default)
 		)
 		(uuid "92745ae2-5586-4d1c-b9fc-44938ddadc8e")
+	)
+	(wire
+		(pts
+			(xy 33.02 44.45) (xy 36.83 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93176fb7-a8ef-416b-a07b-10cd42576034")
 	)
 	(wire
 		(pts
@@ -6894,6 +6900,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 39.37) (xy 52.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16362f8-28a2-4bbf-a38c-ba2b858fbab4")
+	)
+	(wire
+		(pts
 			(xy 299.72 113.03) (xy 299.72 116.84)
 		)
 		(stroke
@@ -6914,7 +6930,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 109.22) (xy 156.21 109.22)
+			(xy 36.83 34.29) (xy 33.02 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7611,6 +7627,16 @@
 			(type default)
 		)
 		(uuid "f983b01f-12d0-471f-8e37-bfbdc6264a79")
+	)
+	(wire
+		(pts
+			(xy 36.83 44.45) (xy 36.83 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb5a269-3959-449c-acfc-9e5c3381e721")
 	)
 	(wire
 		(pts
@@ -9781,6 +9807,85 @@
 			(project "USAR_Drone_Feature"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+7.5V")
+		(at 48.26 36.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44075a85-d956-4a2c-9ff5-8ec75cc91399")
+		(property "Reference" "#PWR04"
+			(at 48.26 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+7.5V"
+			(at 48.26 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.12 1.12)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 48.26 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "410c7c90-8c1e-4dc9-9d90-d11301e03e6f")
+		)
+		(instances
+			(project "USAR_Drone_Feature"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12794,7 +12899,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:DB128L-5.08-2P-BK-S")
-		(at 156.21 104.14 0)
+		(at 33.02 29.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12805,7 +12910,7 @@
 		(dnp no)
 		(uuid "9a12cb88-4208-4998-b30b-d7d680020398")
 		(property "Reference" "J1"
-			(at 151.13 114.3 0)
+			(at 27.94 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12815,7 +12920,7 @@
 			)
 		)
 		(property "Value" "DB128L-5.08-2P-BK-S"
-			(at 147.32 109.2199 0)
+			(at 24.13 34.2899 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12827,7 +12932,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:CONN-TH_2P-P5.08_DB128L-5.08-2P-BK-S"
-			(at 156.21 116.84 0)
+			(at 33.02 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12838,7 +12943,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_DIBO-DB128L-5-08-2P-BK-S_C430601.html"
-			(at 156.21 119.38 0)
+			(at 33.02 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12849,7 +12954,7 @@
 			)
 		)
 		(property "Description" "CONECTOR 24V"
-			(at 156.21 104.14 0)
+			(at 33.02 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12860,7 +12965,7 @@
 			)
 		)
 		(property "LCSC Part" "C430601"
-			(at 156.21 121.92 0)
+			(at 33.02 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12887,7 +12992,7 @@
 	)
 	(symbol
 		(lib_id "power:+7.5V")
-		(at 160.02 104.14 0)
+		(at 38.1 29.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12899,7 +13004,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d9aca1d-6547-4343-ae68-8510a3385d34")
 		(property "Reference" "#PWR01"
-			(at 160.02 107.95 0)
+			(at 38.1 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12910,7 +13015,7 @@
 			)
 		)
 		(property "Value" "+7.5V"
-			(at 160.02 99.06 0)
+			(at 38.1 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12920,7 +13025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 104.14 0)
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12931,7 +13036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 104.14 0)
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12942,7 +13047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 160.02 104.14 0)
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13359,6 +13464,99 @@
 			(project "USAR_Drone_Feature"
 				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:DB128L-5.08-2P-BK-S")
+		(at 33.02 41.91 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "adeeaadf-af73-4b5b-a170-1eb6cc0ee10c")
+		(property "Reference" "J2"
+			(at 27.94 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DB128L-5.08-2P-BK-S"
+			(at 24.13 46.9899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.12 1.12)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:CONN-TH_2P-P5.08_DB128L-5.08-2P-BK-S"
+			(at 33.02 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_DIBO-DB128L-5-08-2P-BK-S_C430601.html"
+			(at 33.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONECTOR 24V"
+			(at 33.02 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C430601"
+			(at 33.02 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8bb86e91-ef48-46a9-9f89-47ea535e2277")
+		)
+		(pin "1"
+			(uuid "a0b395f4-07f0-4d05-b454-04074feb236c")
+		)
+		(instances
+			(project "USAR_Drone_Feature"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14432,7 +14630,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 121.92 0)
+		(at 36.83 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14444,7 +14642,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7929cce-57ab-4d67-bd40-7cf083d9512e")
 		(property "Reference" "#PWR010"
-			(at 158.75 128.27 0)
+			(at 36.83 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14455,7 +14653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 127 0)
+			(at 36.83 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14465,7 +14663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 121.92 0)
+			(at 36.83 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14476,7 +14674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 121.92 0)
+			(at 36.83 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14487,7 +14685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 121.92 0)
+			(at 36.83 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15906,7 +16104,7 @@
 		)
 	)
 	(sheet
-		(at 205.74 102.87)
+		(at 52.07 35.56)
 		(size 35.56 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15922,7 +16120,7 @@
 		)
 		(uuid "c7355bec-9410-4168-a517-83785ccd3002")
 		(property "Sheetname" "BuckConverter"
-			(at 205.74 102.1584 0)
+			(at 52.07 34.8484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15933,7 +16131,7 @@
 			)
 		)
 		(property "Sheetfile" "BuckConverter.kicad_sch"
-			(at 205.74 118.6946 0)
+			(at 52.07 51.3846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15941,6 +16139,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 52.07 39.37 180)
+			(uuid "05b2d524-4809-4918-9c0f-232e950c02b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
