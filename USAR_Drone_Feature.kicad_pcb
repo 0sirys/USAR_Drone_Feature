@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "USLedger")
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -50,6 +50,7 @@
 		)
 		(capping no)
 		(filling no)
+		(grid_origin 176.3 130.1)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -86,6 +87,17 @@
 			(scaleselection 1)
 			(outputdirectory "")
 		)
+	)
+	(gr_rect
+		(start 176.3 80.1)
+		(end 226.3 130.1)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "42b3b999-6c4f-4aba-b21e-cb6dd8abf7ab")
 	)
 	(embedded_fonts no)
 )

@@ -656,13 +656,17 @@
         "uuid": "b3437995-bb94-4c2f-9ed8-b1af477fe956"
       }
     ],
-    "used_designators": "#PWR56-59,J8-10,R28-31",
+    "used_designators": "D1,#PWR3,#PWR6-7,#PWR9-11,#PWR13-14,#PWR16-19,C1-2,C5-6,C15,U1-2,R1",
     "variants": []
   },
   "sheets": [
     [
       "b3437995-bb94-4c2f-9ed8-b1af477fe956",
       "USAR_Drone_Feature"
+    ],
+    [
+      "c7355bec-9410-4168-a517-83785ccd3002",
+      "BuckConverter"
     ]
   ],
   "text_variables": {},
