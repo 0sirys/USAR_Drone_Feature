@@ -656,7 +656,7 @@
         "uuid": "b3437995-bb94-4c2f-9ed8-b1af477fe956"
       }
     ],
-    "used_designators": "D1,#PWR3-7,#PWR9-11,#PWR13-14,#PWR16-20,C1-2,C5-6,C11,C15-16,U1-3,U5,J2,R1,JP1-2",
+    "used_designators": "C1-2,C5-6,C11,D1,JP1-2,R1,U1-3",
     "variants": []
   },
   "sheets": [
@@ -665,8 +665,8 @@
       "USAR_Drone_Feature"
     ],
     [
-      "c7355bec-9410-4168-a517-83785ccd3002",
-      "POWER RAILS"
+      "bbae36a6-1608-41fb-8b94-fa07ee9e7141",
+      "PowerRails"
     ]
   ],
   "text_variables": {},

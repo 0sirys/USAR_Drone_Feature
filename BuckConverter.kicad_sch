@@ -3420,7 +3420,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -3499,7 +3499,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -3579,7 +3579,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "C11")
 					(unit 1)
 				)
@@ -3658,7 +3658,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -3677,7 +3677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28b51889-1df9-4146-b301-8752edbf224c")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 170.18 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3740,8 +3740,8 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
-					(reference "C6")
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3854,7 +3854,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "D1")
 					(unit 1)
 				)
@@ -3932,7 +3932,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -3951,7 +3951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a1acb32-d253-4acd-af25-c8ad9b3a0d96")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 309.88 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,8 +4015,8 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
-					(reference "U5")
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4094,7 +4094,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -4173,7 +4173,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "R1")
 					(unit 1)
 				)
@@ -4252,7 +4252,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -4331,7 +4331,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -4410,7 +4410,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -4489,7 +4489,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -4567,7 +4567,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -4695,7 +4695,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "U1")
 					(unit 1)
 				)
@@ -4773,7 +4773,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -4852,7 +4852,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -4871,7 +4871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4ecabf4-5fe2-45ff-b9d1-d87693eb7743")
-		(property "Reference" "C15"
+		(property "Reference" "C6"
 			(at 275.59 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4944,8 +4944,8 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
-					(reference "C15")
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4963,7 +4963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db0a89a3-a78a-4657-8316-57bbdd5d55c5")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 157.48 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5026,8 +5026,8 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
-					(reference "C2")
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5108,7 +5108,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "JP1")
 					(unit 1)
 				)
@@ -5190,7 +5190,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "C5")
 					(unit 1)
 				)
@@ -5272,7 +5272,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "JP2")
 					(unit 1)
 				)
@@ -5385,7 +5385,7 @@
 		)
 		(instances
 			(project "USAR_Drone_Feature"
-				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/c7355bec-9410-4168-a517-83785ccd3002"
+				(path "/b3437995-bb94-4c2f-9ed8-b1af477fe956/bbae36a6-1608-41fb-8b94-fa07ee9e7141"
 					(reference "U2")
 					(unit 1)
 				)
