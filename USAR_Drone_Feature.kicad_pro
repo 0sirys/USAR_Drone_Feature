@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.1016,
+          "min_island_area": 9.99999999996,
+          "min_thickness": 0.1016,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.1016,
+          "thermal_relief_spoke_width": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +76,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|184710000|93510000|85999a17-e725-4181-b6b4-9d6636485da2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|184710000|94690000|1e4cd5a1-0580-40ef-9608-0361c06a2c80|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|185890000|93510000|01f27eeb-c532-4eb2-80ab-805369477be8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|185890000|94690000|3fe67292-1e43-4f44-875f-8f1a1443e90e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|220167500|88710328|eeecb070-67fd-4d1f-886b-c05681391bd8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|220167500|94490000|280bf657-b4c4-41c1-83d1-0d00aa9f7c94|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -130,23 +171,23 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.1016,
+        "min_connection": 0.2032,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
+        "min_hole_clearance": 0.1,
+        "min_hole_to_hole": 0.2,
+        "min_microvia_diameter": 0.249936,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
-        "min_text_height": 0.5,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.01,
-        "min_via_diameter": 0.2,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_resolved_spokes": 1,
+        "min_silk_clearance": 0.15,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.09,
+        "min_via_annular_width": 0.1524,
+        "min_via_diameter": 0.25,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -195,10 +236,11 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
-        0.22,
-        0.35,
-        0.85
+        0.2032,
+        0.3048,
+        0.508,
+        0.7112,
+        0.762
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -232,11 +274,11 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.42,
-          "drill": 0.2
+          "diameter": 0.762,
+          "drill": 0.254
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "bom_rev": "",
@@ -560,33 +602,21 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
           "show": true
         },
         {
@@ -608,48 +638,24 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
-      "sort_asc": false,
-      "sort_field": "Value"
+      "name": "Default Editing",
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -692,7 +698,7 @@
         "uuid": "b3437995-bb94-4c2f-9ed8-b1af477fe956"
       }
     ],
-    "used_designators": "D1-6,#PWR1-48,L1-2,LED1-2,C1-13,JP1-4,H1-4,J1-6,R1-21,SW1-2,U1-3,USB1",
+    "used_designators": "#PWR10,#PWR49,#PWR56-59,J8-10,R28-31",
     "variants": []
   },
   "sheets": [

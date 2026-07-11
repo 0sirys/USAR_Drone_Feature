@@ -3491,6 +3491,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2.2uH up to 0.5A\n2Mhz"
+		(exclude_from_sim no)
+		(at 215.138 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "195b6e67-2c52-4e13-b3ec-e0c3ad3231ea")
+	)
 	(text "Inductor y IC excluidos del boom"
 		(exclude_from_sim no)
 		(at 247.65 110.998 0)
@@ -3510,6 +3520,16 @@
 			)
 		)
 		(uuid "598c8ecc-ec8a-4b18-b9c9-740a7b46230f")
+	)
+	(text "2.2uH up to 4A\n2Mhz"
+		(exclude_from_sim no)
+		(at 248.412 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85a7c3ad-3d27-42d6-9748-8d42aae1dc1c")
 	)
 	(junction
 		(at 173.99 81.28)
@@ -4740,7 +4760,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_0603")
-		(at 234.95 165.1 270)
+		(at 234.95 165.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4750,7 +4770,7 @@
 		(dnp no)
 		(uuid "56d28b2d-788e-4291-9490-b3122ea85e1d")
 		(property "Reference" "R20"
-			(at 234.95 171.45 90)
+			(at 234.95 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4760,7 +4780,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 234.95 168.91 90)
+			(at 234.95 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4770,7 +4790,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 223.52 165.1 0)
+			(at 246.38 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
