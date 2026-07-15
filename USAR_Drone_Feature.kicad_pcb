@@ -112,7 +112,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(grid_origin 176.3 130.1)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -4046,6 +4045,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10582,6 +10582,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17360,30 +17361,6 @@
 		(uuid "fa7609b9-c663-4cf8-a1e7-cc67780469cf")
 	)
 	(segment
-		(start 182.3 87.1)
-		(end 194.55 87.1)
-		(width 0.2032)
-		(layer "F.Cu")
-		(net "+7.5V")
-		(uuid "02116a76-c01b-4095-832a-233f2f23d9e6")
-	)
-	(segment
-		(start 194.55 87.1)
-		(end 197.3 89.85)
-		(width 0.2032)
-		(layer "F.Cu")
-		(net "+7.5V")
-		(uuid "69efdc86-ec3c-40e3-8bc6-fbf952fc11df")
-	)
-	(segment
-		(start 197.3 89.85)
-		(end 197.3 91.2)
-		(width 0.2032)
-		(layer "F.Cu")
-		(net "+7.5V")
-		(uuid "fff41485-0ece-4e49-9ed2-b5d83ce63527")
-	)
-	(segment
 		(start 185.05 120.775)
 		(end 189.975 120.775)
 		(width 0.2032)
@@ -19303,6 +19280,30 @@
 		(layer "F.Cu")
 		(net "VCC")
 		(uuid "f357f03c-6cc1-4b11-9fec-244a4195a5dd")
+	)
+	(segment
+		(start 182.3 87.1)
+		(end 194.55 87.1)
+		(width 0.2032)
+		(layer "F.Cu")
+		(net "+7.5V")
+		(uuid "02116a76-c01b-4095-832a-233f2f23d9e6")
+	)
+	(segment
+		(start 194.55 87.1)
+		(end 197.3 89.85)
+		(width 0.2032)
+		(layer "F.Cu")
+		(net "+7.5V")
+		(uuid "69efdc86-ec3c-40e3-8bc6-fbf952fc11df")
+	)
+	(segment
+		(start 197.3 89.85)
+		(end 197.3 91.2)
+		(width 0.2032)
+		(layer "F.Cu")
+		(net "+7.5V")
+		(uuid "fff41485-0ece-4e49-9ed2-b5d83ce63527")
 	)
 	(segment
 		(start 183.55 93.0625)
