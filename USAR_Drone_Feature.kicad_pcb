@@ -16914,19 +16914,6 @@
 		(layer "Edge.Cuts")
 		(uuid "42b3b999-6c4f-4aba-b21e-cb6dd8abf7ab")
 	)
-	(gr_text "BRECHA VIEJA V0.1"
-		(at 193.05 103.85 0)
-		(layer "F.SilkS")
-		(uuid "b08305c0-397e-4f6f-8a13-e33d048cbdb4")
-		(effects
-			(font
-				(size 1.016 0.762)
-				(thickness 0.1524)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(dimension
 		(type orthogonal)
 		(layer "User.2")
